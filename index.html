@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>qq-music</title>
+
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/lyric.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+     <!--背景开始-->
+    <div class="bg-mask"></div>
+    <div class="mask"></div>
+     <!--背景结束-->
+     <!--顶部开始-->
+    <div class="top">
+        <div class="left">
+            <h1><a href="#"><img src="//y.gtimg.cn/mediastyle/yqq/img/player_logo.png" alt=""></a></h1>
+        </div>
+        <div class="right">
+            <span>QQ音乐，千万高品质曲库尽享</span>
+            <a href="#"><i class="iconfont icon-weiruan"></i>客户端下载</a>
+            <span>登录</span>
+            <span>设置</span>
+        </div>
+    </div>
+     <!-- 顶部结束   -->
+    <!--中部开始-->
+    <div class="middle">
+        <div class="middle-in">
+          <div class="middle-left">
+              <div class="middle-left-top">
+                  <a href="#"><i></i>收藏</a>
+                  <a href="#"><i></i>添加到</a>
+                  <a href="#"><i></i>下载</a>
+                  <a href="#"><i></i>删除</a>
+                  <a href="#"><i></i>清空列表</a>
+              </div>
+              <div class="music-list mCustomScrollbar" data-mcs-theme='minimal-dark' >
+              <ul>
+                  <li class="nav">
+                      <div class="list-checkbox"></div>
+                      <div class="list-name">歌曲</div>
+                      <div class="list-author">歌手</div>
+                      <div class="list-time">时长</div>
+                  </li>
+
+              </ul>
+              </div>
+          </div>
+            <div class="middle-right">
+                <div class="song-info">
+                    <span  class="song-info-img"><a href="#"><img src="images/lnj.jpg" alt=""></a></span>
+                    <div class="song-info-name">歌曲名:<a href="#">传奇永不熄灭</a></div>
+                    <div class="song-info-singer">歌手名:<a href="#">英雄联盟</a></div>
+                    <div class="song-info-zhuanji">专辑名:<a href="#">Legend Never Die</a></div>
+                </div>
+<div class="lyric-container">
+                <ul class="lyric">
+
+                </ul>
+</div>
+            </div>
+        </div>
+    </div>
+    <!--中部结束-->
+    <!--底部开始-->
+    <div class="bottom">
+        <div class="bottom-in">
+            <a href="#" class="footer-last-music"></a>
+            <a href="#" class="footer-toggle play-btn"></a>
+            <a href="#" class="footer-next-music" id="next-music"></a>
+            <div class="bottom-info-time">
+                <a href="javascript" class="progress-name">00:00/00:00</a><span class="fr clearfix progress-time">01:18/04:03</span>
+                <div class="progressBar">
+                    <div class="progress-inner">
+                        <div class="progress-inner-dot"></div>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class=""></a>
+            <a href="#" class=""></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#" class="voice-logo"></a>
+            <div class="voice-progress">
+                <div class="voice-progress-inner">
+                    <div class="voice-progress-inner-dot"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--底部结束-->
+    <audio src=""></audio>
+</body>
+</html>
